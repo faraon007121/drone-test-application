@@ -1,10 +1,10 @@
 package org.lakirev.example.data;
 
 import org.lakirev.example.model.DroneModel;
-import org.lakirev.example.model.response.DroneFullInfo;
-import org.lakirev.example.model.response.DroneShortInfo;
 import org.lakirev.example.model.entity.Drone;
 import org.lakirev.example.model.request.UploadDroneRequest;
+import org.lakirev.example.model.response.DroneFullInfo;
+import org.lakirev.example.model.response.DroneShortInfo;
 
 public final class DroneTestData {
 

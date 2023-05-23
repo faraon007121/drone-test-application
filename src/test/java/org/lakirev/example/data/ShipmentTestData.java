@@ -2,9 +2,9 @@ package org.lakirev.example.data;
 
 import org.lakirev.example.model.Coordinates;
 import org.lakirev.example.model.ShipmentStatus;
-import org.lakirev.example.model.response.ShipmentInfo;
 import org.lakirev.example.model.entity.Shipment;
 import org.lakirev.example.model.request.UploadShipmentRequest;
+import org.lakirev.example.model.response.ShipmentInfo;
 
 import java.util.Arrays;
 

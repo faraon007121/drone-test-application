@@ -6,9 +6,9 @@ import lombok.RequiredArgsConstructor;
 import lombok.experimental.FieldDefaults;
 import org.lakirev.example.model.Coordinates;
 import org.lakirev.example.model.DroneState;
+import org.lakirev.example.model.request.UploadDroneRequest;
 import org.lakirev.example.model.response.DroneFullInfo;
 import org.lakirev.example.model.response.DroneShortInfo;
-import org.lakirev.example.model.request.UploadDroneRequest;
 import org.lakirev.example.service.DroneManager;
 import org.lakirev.example.service.DroneService;
 import org.springframework.http.HttpStatus;
@@ -23,7 +23,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
-import java.util.Set;
 
 @RestController
 @RequiredArgsConstructor

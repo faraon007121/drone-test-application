@@ -1,9 +1,9 @@
 package org.lakirev.example.mapper;
 
 import org.lakirev.example.annotation.MapstructIgnore;
-import org.lakirev.example.model.response.ShipmentInfo;
 import org.lakirev.example.model.entity.Shipment;
 import org.lakirev.example.model.request.UploadShipmentRequest;
+import org.lakirev.example.model.response.ShipmentInfo;
 import org.mapstruct.BeanMapping;
 import org.mapstruct.Context;
 import org.mapstruct.Mapper;

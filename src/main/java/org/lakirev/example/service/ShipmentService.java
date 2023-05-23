@@ -1,7 +1,7 @@
 package org.lakirev.example.service;
 
-import org.lakirev.example.model.response.ShipmentInfo;
 import org.lakirev.example.model.request.UploadShipmentRequest;
+import org.lakirev.example.model.response.ShipmentInfo;
 
 public interface ShipmentService {
 

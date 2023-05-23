@@ -1,10 +1,10 @@
 package org.lakirev.example.repository;
 
+import org.lakirev.example.model.entity.Drone;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
-import org.lakirev.example.model.entity.Drone;
 
 import java.util.Optional;
 

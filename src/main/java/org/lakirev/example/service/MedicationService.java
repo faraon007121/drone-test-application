@@ -1,11 +1,10 @@
 package org.lakirev.example.service;
 
+import org.lakirev.example.model.request.UploadMedicationRequest;
 import org.lakirev.example.model.response.MedicationFullInfo;
 import org.lakirev.example.model.response.MedicationShortInfo;
-import org.lakirev.example.model.request.UploadMedicationRequest;
 
 import java.util.List;
-import java.util.Set;
 
 public interface MedicationService {
 

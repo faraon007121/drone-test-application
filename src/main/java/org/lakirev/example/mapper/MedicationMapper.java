@@ -1,15 +1,15 @@
 package org.lakirev.example.mapper;
 
+import org.lakirev.example.annotation.MapstructIgnore;
+import org.lakirev.example.model.entity.Medication;
+import org.lakirev.example.model.request.UploadMedicationRequest;
+import org.lakirev.example.model.response.MedicationFullInfo;
 import org.lakirev.example.model.response.MedicationShortInfo;
 import org.mapstruct.BeanMapping;
 import org.mapstruct.Context;
 import org.mapstruct.InjectionStrategy;
 import org.mapstruct.Mapper;
 import org.mapstruct.ReportingPolicy;
-import org.lakirev.example.annotation.MapstructIgnore;
-import org.lakirev.example.model.response.MedicationFullInfo;
-import org.lakirev.example.model.entity.Medication;
-import org.lakirev.example.model.request.UploadMedicationRequest;
 
 @Mapper(componentModel = "spring",
         injectionStrategy = InjectionStrategy.CONSTRUCTOR,

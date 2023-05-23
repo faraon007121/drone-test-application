@@ -12,9 +12,9 @@ import org.lakirev.example.exception.NotFoundException;
 import org.lakirev.example.mapper.DroneMapper;
 import org.lakirev.example.mapper.DroneMapperImpl;
 import org.lakirev.example.mapper.ShipmentMapperImpl;
-import org.lakirev.example.model.response.DroneShortInfo;
 import org.lakirev.example.model.entity.Drone;
 import org.lakirev.example.model.request.UploadDroneRequest;
+import org.lakirev.example.model.response.DroneShortInfo;
 import org.lakirev.example.repository.DroneRepository;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
@@ -76,4 +76,5 @@ class DefaultDroneServiceTest {
         Assertions.assertThrows(NotFoundException.class, () -> service.update(1L, testRequest));
         Assertions.assertThrows(NotFoundException.class, () -> service.delete(1L));
     }
+
 }

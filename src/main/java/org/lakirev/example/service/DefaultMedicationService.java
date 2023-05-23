@@ -4,20 +4,19 @@ import lombok.AccessLevel;
 import lombok.RequiredArgsConstructor;
 import lombok.experimental.FieldDefaults;
 import lombok.extern.slf4j.Slf4j;
+import org.lakirev.example.exception.AlreadyExistsException;
 import org.lakirev.example.exception.NotFoundException;
 import org.lakirev.example.mapper.MedicationMapper;
+import org.lakirev.example.model.entity.Medication;
+import org.lakirev.example.model.request.UploadMedicationRequest;
 import org.lakirev.example.model.response.MedicationFullInfo;
 import org.lakirev.example.model.response.MedicationShortInfo;
 import org.lakirev.example.repository.MedicationRepository;
 import org.springframework.stereotype.Service;
-import org.lakirev.example.exception.AlreadyExistsException;
-import org.lakirev.example.model.entity.Medication;
-import org.lakirev.example.model.request.UploadMedicationRequest;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.Optional;
-import java.util.Set;
 import java.util.stream.Collectors;
 
 @Service

@@ -1,9 +1,9 @@
 package org.lakirev.example.data;
 
-import org.lakirev.example.model.response.MedicationFullInfo;
-import org.lakirev.example.model.response.MedicationShortInfo;
 import org.lakirev.example.model.entity.Medication;
 import org.lakirev.example.model.request.UploadMedicationRequest;
+import org.lakirev.example.model.response.MedicationFullInfo;
+import org.lakirev.example.model.response.MedicationShortInfo;
 
 import java.util.Arrays;
 import java.util.List;

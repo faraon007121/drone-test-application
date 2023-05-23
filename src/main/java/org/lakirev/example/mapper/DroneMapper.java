@@ -1,5 +1,8 @@
 package org.lakirev.example.mapper;
 
+import org.lakirev.example.annotation.MapstructIgnore;
+import org.lakirev.example.model.entity.Drone;
+import org.lakirev.example.model.request.UploadDroneRequest;
 import org.lakirev.example.model.response.DroneFullInfo;
 import org.lakirev.example.model.response.DroneShortInfo;
 import org.mapstruct.BeanMapping;
@@ -7,9 +10,6 @@ import org.mapstruct.Context;
 import org.mapstruct.InjectionStrategy;
 import org.mapstruct.Mapper;
 import org.mapstruct.ReportingPolicy;
-import org.lakirev.example.annotation.MapstructIgnore;
-import org.lakirev.example.model.entity.Drone;
-import org.lakirev.example.model.request.UploadDroneRequest;
 
 @Mapper(componentModel = "spring",
         injectionStrategy = InjectionStrategy.CONSTRUCTOR,

@@ -1,9 +1,11 @@
 package org.lakirev.example.handler;
 
 import lombok.extern.slf4j.Slf4j;
-import org.lakirev.example.exception.drone.DroneException;
+import org.lakirev.example.exception.BadRequestException;
 import org.lakirev.example.exception.NotFoundException;
+import org.lakirev.example.exception.drone.DroneException;
 import org.lakirev.example.model.response.ArgumentError;
+import org.lakirev.example.model.response.ErrorResponse;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -11,8 +13,6 @@ import org.springframework.validation.FieldError;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
-import org.lakirev.example.exception.BadRequestException;
-import org.lakirev.example.model.response.ErrorResponse;
 import org.springframework.web.multipart.MultipartException;
 
 import java.util.ArrayList;

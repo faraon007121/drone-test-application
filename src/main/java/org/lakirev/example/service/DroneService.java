@@ -1,8 +1,8 @@
 package org.lakirev.example.service;
 
+import org.lakirev.example.model.request.UploadDroneRequest;
 import org.lakirev.example.model.response.DroneFullInfo;
 import org.lakirev.example.model.response.DroneShortInfo;
-import org.lakirev.example.model.request.UploadDroneRequest;
 
 public interface DroneService {
 
